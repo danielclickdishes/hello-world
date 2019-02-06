@@ -10,6 +10,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building the react application...
+      - npm run test
       - npm run build
 
 artifacts:
